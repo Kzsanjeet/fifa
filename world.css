@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.h1 h1{
+    text-align: center;
+    padding-top: 60px;
+    padding-left: 150px;
+    padding-bottom: 0px;
+    color: azure;
+}
+.tournament{
+    /* border: 1px solid black; */
+    height: 90vh;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 230px;
+    margin-top: 0px;
+}
+.box{
+    border: 3px solid #228cdc;
+    height: 125px;
+    width: 205px;
+    display: flex;
+    margin: 5px;
+}
+img{
+    height: 120px;
+    width: 200px;
+}
+.p1 h2{
+    color: azure;
+    font-size: 20px;
+}
+.p2 h2{
+    color: azure;
+    font-size:20px ;
+}
+.box :hover{
+    border: 3px solid wheat;
+}

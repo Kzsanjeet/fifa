@@ -43,3 +43,36 @@ img{
 .box :hover{
     border: 3px solid wheat;
 }
+.tour{
+    color: green;
+    font-size: 10px;
+}
+/* @media  (max-width:412px) {
+    .side-menu{
+        width: 150px;
+    }
+    .container .header .nav .search button{
+        padding-left: 50px;
+    }
+    .container .header .nav .search input[type=text]{
+        padding-left: 40px;
+    }
+    .container .header .nav .search{
+        padding-left: 60px;
+    }
+    .container .header .nav .search button img{
+        padding-right: 10px;
+    }
+    .btn{
+        margin-left: 10px;
+        padding: 5px;
+    }
+} */
+@media screen and (max-width:413) {
+    .container .header .nav .search{
+        padding-right: 400px
+    }
+    
+
+    
+}

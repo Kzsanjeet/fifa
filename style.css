@@ -131,3 +131,70 @@ h1,h2{
     padding: 3px 8px;
     border: 2px solid #f05462;
 } */
+.cr7 img{
+    float: right;
+    height: 100vh;
+    width: 38vw;
+    padding-top: 100px;
+}
+.about{
+    width: 60vw;
+    float:left;
+    text-align: center;
+    padding-left: 330px;
+    text-align: justify;
+    padding-top: 80px;
+}
+.about h1{
+    text-align: center;
+    padding-bottom: 40px;
+    color: #228cdc;
+}
+.about p{
+    font-size: 20px;
+    color: whitesmoke
+}
+/* @media screen and (min-width:600px){
+    body{
+        background-color:lightgreen;
+    }    
+} */
+@media screen and (max-width:1113px) { 
+    .about {
+        width: 100vw;
+        height: 80vh;
+        padding-left: 170px;
+        padding-right: 30px;
+    } 
+    .cr7 img{
+        width: 100vw;
+        height: 60vh;
+    }
+}
+@media screen and (max-width:828px) {
+    .side-menu li a{
+        padding-left: 0px;
+    }
+    
+}
+@media  (max-width:412px) {
+    .side-menu{
+        width: 150px;
+    }
+    .container .header .nav .search button{
+        padding-left: 50px;
+    }
+    .container .header .nav .search input[type=text]{
+        padding-left: 40px;
+    }
+    .container .header .nav .search{
+        padding-left: 60px;
+    }
+    .container .header .nav .search button img{
+        padding-right: 10px;
+    }
+    .btn{
+        margin-left: 10px;
+        padding: 5px;
+    }
+}

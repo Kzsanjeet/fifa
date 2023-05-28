@@ -40,6 +40,12 @@ img{
     color: azure;
     font-size:20px ;
 }
+.p1 h2:hover{
+    color: #228cdc;
+}
+p2 h2:hover{
+    color: #228cdc;
+}
 .box :hover{
     border: 3px solid wheat;
 }
